@@ -1,0 +1,7 @@
+---
+applications:
+- name: test-app-python
+  memory: 128M
+  buildpack: python_buildpack
+  command: python hello.py
+  timeout: 20
